@@ -1,0 +1,41 @@
+#simple alias
+alias welcome='echo "Welcome $USER."'
+
+# Version Control
+alias gs="git status"
+alias gd="git add ."
+alias gp="git push -u origin master"
+
+# Directory
+alias diskusage="df -h"
+alias folderusage="du -ch"
+alias totalfolderusage="du -sh"
+
+# Various
+alias opencustomaliases="gedit  ~/.custom_aliases"
+alias updatealiases="source ~/.custom_aliases"
+alias up-up="sudo apt-get update && sudo apt-get upgrade -y"
+alias py="python3"
+
+# Multiple commands
+alias treels="ls -la | tree -d -L1"
+alias pc="ps auxf"
+
+# Functions
+
+function shortcut() {
+    echo -e "[Tab] " "This is the Linux shortcut you cannot live without. It will save you so much time in the Linux command line.\n"
+    echo -e "[Ctrl + C]" "This will stop a running program immediately.\n"
+    echo -e "[Ctrl + Z]" "This shortcut will send a running program in the background.\n"
+    echo -e "[Ctrl + D]" "This keyboard shortcut will log you out of the current terminal. If you are using a terminal directly, the application will be closed immediately. Consider it equivalent to the ‘exit’ command.\n"
+    echo -e "[Ctrl + L]" "This shortcut will clear the terminal. Handy, isn’t it?\n"
+    echo -e "[Ctrl + A]" "This shortcut will move the cursor to to the beginning of the line.\n"
+    echo -e "[Ctrl + E]" "This shortcut is sort of opposite to Ctrl+A.the beginning of the line.\n"
+    echo -e "[Ctrl + U]" "This shortcut erases everything from the current cursor position to the beginning of the line.\n"
+    echo -e "[Ctrl + K]" "it erases everything from the current cursor position to the end of the line.\n"
+    echo -e "[Ctrl + W]" "It erases the word preceding to the cursor position.\n"
+    echo -e "[Ctrl + Y]" "This will paste the erased text that you saw with Ctrl + W, Ctrl + U and Ctrl + K shortcuts.\n"
+    echo -e "[Ctrl + P] or [PgUp]" "You can use this shortcut to view the previous command.\n"
+    echo -e "[Ctrl + N] or [PgDn]" "You can use this shortcut in conjugation with Ctrl+P. It displays the next command.\n"
+    }
+
