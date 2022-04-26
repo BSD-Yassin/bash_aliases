@@ -57,6 +57,3 @@ But I wouldn't recommand it if you're not sure yourself.
 That's all, feel free to get in the file and make your own changes, and send them back in here! 
 
 (https://phoenixnap.com/kb/linux-alias-command)
-
-### Note: 
-##### Just for the terminology, that's not an actual bash script, as they end with sh. But still, there's a small function in the end, so let it slide plz.
