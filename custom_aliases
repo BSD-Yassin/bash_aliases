@@ -18,7 +18,7 @@ alias up-up="sudo apt-get update && sudo apt-get upgrade -y"
 alias py="python3"
 
 # Multiple commands
-alias treels="ls -la | tree -d -L1"
+alias treels="ls -la | tree -d -L 1"
 alias pc="ps auxf"
 
 # Functions
